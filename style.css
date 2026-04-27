@@ -3,6 +3,13 @@
 
 nav {
     background-color: white;
+    height: 127px;
+    display: flex;
+
+}
+
+nav img {
+
 }
 
 nav button {
@@ -10,6 +17,7 @@ nav button {
     height: 61px;
     padding: 10px;
     border-radius: 8px;
+    border: none;
 }
 
 nav #btn-1 {
@@ -20,4 +28,25 @@ nav #btn-1 {
 nav #btn-2 {
     color: white;
     background-color: #8D34FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 425px) {
+    nav {
+        overflow-x: none;
+    }
+}
+
+@media (max-width: 850px) {
+    
 }
