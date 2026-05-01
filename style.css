@@ -1,58 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap");
 
 /* Nav */
 
+.navbar {
+  padding: 3rem 0;
+}
+
 .navbar-brand img {
-padding-right: 1rem;
+  padding-right: 1rem;
 }
 
 .navbar form button {
-    width: 140px;
-    height: 61px;
-    padding: 10px;
-    border-radius: 8px;
-    border: none;
-    font-size: 20px;
-    font-weight: 500;
+  width: 140px;
+  height: 61px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .navbar a {
-    font-size: 28px;
-    font-weight: 700;
-    font-family: "Sansita", sans-serif;
-    padding-left: 1rem;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Sansita", sans-serif;
+  padding-left: 1rem;
 }
 nav #btn-1 {
-    color: #8D34FF;
-    background-color: #E6D2FF;
+  color: #8d34ff;
+  background-color: #e6d2ff;
 }
 
 nav #btn-2 {
-    color: white;
-    background-color: #8D34FF;
+  color: white;
+  background-color: #8d34ff;
 }
 
 /* Main */
 
 .main-div {
-margin-top: 4rem;
+  margin-top: 3rem;
 }
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 425px) {
-    nav {
-        overflow-x: none;
-    }
+
+
+  .navbar {
+    padding: 1rem 0;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+  nav form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav form #btn-1 {
+    margin-top: 2rem;
+    width: 300px;
+    height: 61px;
+  }
+
+  nav form #btn-2 {
+    width: 300px;
+    height: 61px;
+  }
 }
 
 @media (max-width: 850px) {
-    
 }
