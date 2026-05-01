@@ -1,25 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
 
+/* Nav */
 
-nav {
-    background-color: white;
-    height: 127px;
-    display: flex;
-
+.navbar-brand img {
+padding-right: 1rem;
 }
 
-nav img {
-
-}
-
-nav button {
+.navbar form button {
     width: 140px;
     height: 61px;
     padding: 10px;
     border-radius: 8px;
     border: none;
+    font-size: 20px;
+    font-weight: 500;
 }
 
+.navbar a {
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Sansita", sans-serif;
+    padding-left: 1rem;
+}
 nav #btn-1 {
     color: #8D34FF;
     background-color: #E6D2FF;
@@ -30,7 +32,11 @@ nav #btn-2 {
     background-color: #8D34FF;
 }
 
+/* Main */
 
+.main-div {
+margin-top: 4rem;
+}
 
 
 
