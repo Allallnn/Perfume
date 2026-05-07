@@ -56,7 +56,14 @@ width: 375px;
 margin-bottom: 1rem;
 }
 
-
+.cards .card button{
+padding: 12px 42.5px;
+background-color: #8D34FF;
+border-radius: 8px;
+width: 220px;
+color: white;
+border: none;
+}
 .card #p-1{
   color: #6D5DD3;
   font-weight: 500;
@@ -81,6 +88,75 @@ main section {
 
 main section .card {
   width: 256px;
+}
+
+/* My Cart Preview */
+.mcp {
+  width: 348px;
+}
+
+.mcp h5 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.mcp img {
+width: 95px;
+height: 98px;
+margin-right: 1rem;
+}
+
+.plus-btn {
+  background-color: #8D34FF;
+border: none;
+border-radius: 2.79px;
+}
+
+.minus-btn {
+  background-color: #8D34FF;
+border: none;
+border-radius: 2.79px;
+}
+
+.mcp .text-div {
+  padding: 0 auto ;
+}
+
+.mcp-div {
+padding: 1rem 1rem;
+}
+
+.od-conf {
+padding: 0 1rem;
+}
+
+.mcp-div p{
+  font-size: 15px;
+font-weight: 500;
+}
+
+
+.mcp button {
+
+}
+
+
+.mcp .remove-btn {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: red;
+  width: 87px;
+  height: 26px;
+  background-color: white;
+  border: 1px solid red;
+  padding: 18px;
+  border-radius: 3.5px;
+}
+
+.mcp .plus-btn {
+
 }
 
 @media (max-width: 425px) {
