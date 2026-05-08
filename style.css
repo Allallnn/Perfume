@@ -74,6 +74,9 @@ border: none;
   font-weight: 500;
 }
 
+.cards .card {
+  width: 256px;
+}
 
 
 .card h5 {
@@ -200,9 +203,9 @@ border: none;
     display: flex;
     flex-direction: column;
   }
-.card {
-    width: 100%;
-  }
+.cards .card {
+  width: 100%;
+}
 
   .cards {
         display: flex;
