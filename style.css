@@ -127,11 +127,47 @@ border-radius: 2.79px;
 }
 
 .mcp-div {
-padding: 1rem 1rem;
+padding-left: 1rem;
+
+}
+
+.mcp-div-2 {
+  width: 100%;
+}
+
+.mcp-num p {
+  padding: 0 0.5rem;
+}
+
+.mcp-div-3 {
+  display: flex;
+  align-items: center;
 }
 
 .od-conf {
 padding: 0 1rem;
+}
+
+.od-conf .p-1 {
+font-weight: 500;
+font-size: 14px;
+}
+
+.od-conf .p-2 {
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.od-conf-div {
+  height: 2.5rem;
+}
+
+.od-conf button {
+background-color: #8D34FF;
+border-radius: 8px;
+height: 44px;
+border: none;
+color: white;
 }
 
 .mcp-div p{
