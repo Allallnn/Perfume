@@ -156,7 +156,7 @@ font-weight: 500;
 }
 
 .mcp .plus-btn {
-
+border: none;
 }
 
 @media (max-width: 425px) {
