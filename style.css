@@ -239,6 +239,7 @@ border: none;
     display: flex;
     flex-direction: column;
   }
+
 .cards .card {
   width: 100%;
 }
@@ -262,3 +263,4 @@ border: none;
 
 @media (max-width: 850px) {
 }
+
