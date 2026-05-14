@@ -1,19 +1,26 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  background-image: url(assets/img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.logo{
+.login-container {
+  background-color: white;
+}
+
+.logo {
   position: absolute;
   top: 40px;
   left: 60px;
@@ -25,7 +32,7 @@ body{
   font-weight: bold;
 }
 
-.logo-circle{
+.logo-circle {
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -37,39 +44,39 @@ body{
   font-weight: bold;
 }
 
-.login-container{
+.login-container {
   width: 640px;
   background: #f5f5f5;
   border-radius: 20px;
   padding: 55px 60px;
 }
 
-.login-container h1{
+.login-container h1 {
   font-size: 30px;
   margin-bottom: 14px;
   color: #1f1f1f;
 }
 
-.sub-text{
-  color: #666;
+.sub-text {
+  color:;
   margin-bottom: 40px;
   font-size: 18px;
 }
 
-.input-group{
+.input-group {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
 }
 
-.input-group label{
+.input-group label {
   margin-bottom: 10px;
   font-size: 16px;
   font-weight: 600;
   color: #444;
 }
 
-.input-group input{
+.input-group input {
   width: 100%;
   padding: 16px;
   border: 2px solid #d8d8d8;
@@ -79,14 +86,14 @@ body{
   background: transparent;
 }
 
-.options{
+.options {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
 }
 
-.remember{
+.remember {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -94,23 +101,24 @@ body{
   font-size: 16px;
 }
 
-.remember input{
+.remember input {
   width: 18px;
   height: 18px;
-  accent-color: #8D34FF;
+  accent-color: #8d34ff;
 }
 
-.forgot{
-  color: #EC5E5E;
+.forgot {
+  color: #ec5e5e;
   text-decoration: none;
   font-size: 16px;
 }
 
-.signin-btn{
+.signin-btn {
   width: 100%;
   padding: 18px;
   border: none;
   border-radius: 14px;
+  background-color: #8d34ff;
   color: white;
   font-size: 20px;
   font-weight: bold;
@@ -118,7 +126,7 @@ body{
   margin-bottom: 25px;
 }
 
-.divider{
+.divider {
   display: flex;
   align-items: center;
   text-align: center;
@@ -127,10 +135,7 @@ body{
   font-weight: 600;
 }
 
-
-
-
-.google-btn{
+.google-btn {
   width: 100%;
   padding: 16px;
   border-radius: 14px;
@@ -145,36 +150,35 @@ body{
   cursor: pointer;
 }
 
-.bottom-text{
+.bottom-text {
   text-align: center;
   margin-top: 35px;
   color: #777;
   font-size: 16px;
 }
 
-.bottom-text a{
+.bottom-text a {
   color: #7c3aed;
   text-decoration: none;
   font-weight: 500;
 }
 
-@media(max-width: 365px){
-
-  body{
+@media (max-width: 365px) {
+  body {
     padding: 20px;
   }
 
-  .login-container{
+  .login-container {
     width: 100%;
     padding: 35px 25px;
   }
 
-  .logo{
+  .logo {
     top: 20px;
     left: 20px;
   }
 
-  .options{
+  .options {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
