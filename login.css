@@ -58,7 +58,6 @@ body {
 }
 
 .sub-text {
-  color:;
   margin-bottom: 40px;
   font-size: 18px;
 }
@@ -163,15 +162,27 @@ body {
   font-weight: 500;
 }
 
-@media (max-width: 365px) {
+form {
+  
+}
+
+.form-img-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 500px) {
   body {
     padding: 20px;
   }
 
   .login-container {
     width: 100%;
-    padding: 35px 25px;
+    padding: 35px 10px;
+    margin: 100px 0;
   }
+
 
   .logo {
     top: 20px;
@@ -182,5 +193,20 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
+  }
+
+  form {
+    max-width: 100%;
+    box-shadow: 1px 5px 19.25px 1px gray ;
+border-radius: 8px;
+  }
+
+    .form-div {
+    width: 100%;
+    margin: 2rem;
+    /* overflow-x: none; */
+  }
+  .container {
+    max-width: 100%;
   }
 }

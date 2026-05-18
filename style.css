@@ -315,7 +315,8 @@ height: 18px;
   }
 
   .mcp {
-box-shadow: 10px 10px 10px gray;
+box-shadow: 1px 5px 19.25px 1px gray ;
+border-radius: 8px;
   }
 
 }

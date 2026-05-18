@@ -164,7 +164,11 @@ body {
   font-weight: 500;
 }
 
-
+.form-img-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
 
 @media (max-width: 500px) {
 body {
@@ -211,8 +215,6 @@ body {
     overflow-x: none;
   }
 
-  .form-final {
-    
-  }
+
 
 }
